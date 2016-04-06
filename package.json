@@ -1,26 +1,26 @@
 {
-	"name": "gp-electron-quick-start",
-	"version": "1.0.0",
-	"description": "Electron starting point",
-	"main": "main.js",
-	"scripts": {
-		"start": "electron main.js"
-	},
-	"repository": {
-		"type": "git",
-		"url": "git+https://github.com/GeordieP/electron-quick-start.git"
-	},
-	"keywords": [
-		"Electron"
-	],
-	"author": "GitHub",
-	"license": "CC0-1.0",
-	"homepage": "https://github.com/GeordieP/electron-quick-start",
-	"dependencies": {
-		
-	},
-	"devDependencies": {
-		"electron-prebuilt": "^0.36.0",
-		"electron-packager": "^5.2.1"
-	}
+  "name": "ElectronTweetdeck",
+  "version": "1.0.0",
+  "description": "Electron wrapper for Tweetdeck",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GeordieP/electron-quick-start.git"
+  },
+  "keywords": [
+    "Electron",
+    "Tweetdeck"
+  ],
+  "author": "Twitter, GitHub",
+  "license": "CC0-1.0",
+  "dependencies": {
+    "configstore": "^2.0.0"
+  },
+  "devDependencies": {
+    "electron-prebuilt": "^0.36.0",
+    "electron-packager": "^5.2.1"
+  }
 }

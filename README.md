@@ -1,9 +1,15 @@
-#gp electron-quick-start
+#Tweetdeck Electron Wrapper
 
-Basic fork of electron-quick-start customized to my liking.
+Tweetdeck decided to discontinue support for their desktop app. This simple app serves to correct that mistake.
+
+## Known Issues
+- Notifications
+-- Notification popup windows/toast notifications don't work, and may never be implemented. Sounds do still work, however.
+- Login appears to do nothing
+-- When you first open the app and enter your info, pressing your enter key or clicking "log in" will not do anything. However, as long as you have the "remember me" box checked, if you then close and re-open the app, you'll be logged in as normal. Currently don't know why (if you do, feel free to let me know, or submit a pull request with the fix!).
 
 ---
-## To Use
+## To Edit
 
 To clone and run this repository you'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download/) (which comes with [npm](http://npmjs.com)) installed on your computer. From your command line:
 
